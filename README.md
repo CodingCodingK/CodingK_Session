@@ -10,7 +10,7 @@ UDP/TCP C-S Session powered by proto, KCP, PELog on .net standard 2.0.3, Kcp 2.3
 
 项目中含有 .net core服务端 和 .net framework客户端 的测试demo。
 
-[本人博客](CodingCodingK.top) 中有proto笔记、UDP笔记，以及github有自制proto协议代码批量生成工具（wpf）。
+本人博客(CodingCodingK.top) 中有proto笔记、UDP笔记，以及github有自制proto协议代码批量生成工具（wpf）。
 
 # 使用
 
@@ -24,7 +24,7 @@ UDP/TCP C-S Session powered by proto, KCP, PELog on .net standard 2.0.3, Kcp 2.3
 
 ## 3.分别在服务端和客户端启用
 
-持有 CodingK_Net < 2中的Session, 1中的协议 >。再调用 CodingK_Net 中的API：
+持有 `CodingK_Net < 2中的Session, 1中的协议 >`。再调用 CodingK_Net 中的API：
 
 `public void StartAsClient(string ip, int port, CodingK_ProtocolMode protocolMode)`
 
