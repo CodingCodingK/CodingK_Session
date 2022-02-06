@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>CodingK_Session</id>
+    <version>1.0.0</version>
+    <authors>CodingK_Session</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Kcp" version="2.3.0" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net" version="3.0.62" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Release\netstandard2.0\CodingK_Session.dll" target="lib\netstandard2.0\CodingK_Session.dll" />
+  </files>
+</package>

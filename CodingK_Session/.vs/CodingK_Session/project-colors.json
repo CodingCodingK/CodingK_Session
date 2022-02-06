@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2b772d5-8968-4d33-9c50-9abd3488ca60": {
+      "ProjectGuid": "a2b772d5-8968-4d33-9c50-9abd3488ca60",
+      "DisplayName": "CodingK_Session",
+      "ColorIndex": 0
+    },
+    "cbe084b6-24a3-4654-92e1-eac67b06f899": {
+      "ProjectGuid": "cbe084b6-24a3-4654-92e1-eac67b06f899",
+      "DisplayName": "test.Protocol",
+      "ColorIndex": 1
+    },
+    "4698a6ff-8035-42a5-93e8-03594b3c2034": {
+      "ProjectGuid": "4698a6ff-8035-42a5-93e8-03594b3c2034",
+      "DisplayName": "test.ServerSession",
+      "ColorIndex": 2
+    },
+    "a55c1395-3d84-44cb-988b-e2b4a88f50da": {
+      "ProjectGuid": "a55c1395-3d84-44cb-988b-e2b4a88f50da",
+      "DisplayName": "test.ClientSession",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,13 @@
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\bin\Debug\netstandard2.0\test.Protocol.deps.json
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\bin\Debug\netstandard2.0\test.Protocol.dll
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\bin\Debug\netstandard2.0\test.Protocol.pdb
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\bin\Debug\netstandard2.0\CodingK_Session.dll
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\bin\Debug\netstandard2.0\CodingK_Session.pdb
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.csproj.AssemblyReference.cache
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.AssemblyInfoInputs.cache
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.AssemblyInfo.cs
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.csproj.CoreCompileInputs.cache
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.csproj.CopyComplete
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.dll
+C:\Github\CodingK_Session\CodingK_Session\test.Protocol\obj\Debug\netstandard2.0\test.Protocol.pdb

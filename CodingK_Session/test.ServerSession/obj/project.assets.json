@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Kcp/2.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Kcp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Kcp.dll": {}
+        }
+      },
+      "protobuf-net/3.0.62": {
+        "type": "package",
+        "dependencies": {
+          "protobuf-net.Core": "3.0.62"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/protobuf-net.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.dll": {}
+        }
+      },
+      "protobuf-net.Core/3.0.62": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/protobuf-net.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/protobuf-net.Core.dll": {}
+        }
+      },
+      "CodingK_Session/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Kcp": "2.3.0",
+          "protobuf-net": "3.0.62"
+        },
+        "compile": {
+          "bin/placeholder/CodingK_Session.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CodingK_Session.dll": {}
+        }
+      },
+      "test.Protocol/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CodingK_Session": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/test.Protocol.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/test.Protocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kcp/2.3.0": {
+      "sha512": "cegDiYxgyQ9aVGOpEuVTNMhb4P7Sfc4lUnZmlC2Mj5QVuvnglVU2ol3yTWZyQDDkmV2F8qzgF3OkAmbY3cwSPw==",
+      "type": "package",
+      "path": "kcp/2.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "kcp.2.3.0.nupkg.sha512",
+        "kcp.nuspec",
+        "lib/net5.0/Kcp.dll",
+        "lib/net5.0/Kcp.pdb",
+        "lib/net5.0/Kcp.xml",
+        "lib/netstandard1.1/Kcp.dll",
+        "lib/netstandard1.1/Kcp.pdb",
+        "lib/netstandard1.1/Kcp.xml",
+        "lib/netstandard2.0/Kcp.dll",
+        "lib/netstandard2.0/Kcp.pdb",
+        "lib/netstandard2.0/Kcp.xml",
+        "lib/netstandard2.1/Kcp.dll",
+        "lib/netstandard2.1/Kcp.pdb",
+        "lib/netstandard2.1/Kcp.xml"
+      ]
+    },
+    "protobuf-net/3.0.62": {
+      "sha512": "EqdVJU6BXj6SVMcZObrUV5DUThRyvWBn8jKRaTccgdB3NC/DAjNDABz85luptyPMxabWaCBYcWp3S8z9Qtbyyw==",
+      "type": "package",
+      "path": "protobuf-net/3.0.62",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/protobuf-net.dll",
+        "lib/net461/protobuf-net.xml",
+        "lib/net5.0/protobuf-net.dll",
+        "lib/net5.0/protobuf-net.xml",
+        "lib/netcoreapp3.1/protobuf-net.dll",
+        "lib/netcoreapp3.1/protobuf-net.xml",
+        "lib/netstandard2.0/protobuf-net.dll",
+        "lib/netstandard2.0/protobuf-net.xml",
+        "lib/netstandard2.1/protobuf-net.dll",
+        "lib/netstandard2.1/protobuf-net.xml",
+        "protobuf-net.3.0.62.nupkg.sha512",
+        "protobuf-net.nuspec"
+      ]
+    },
+    "protobuf-net.Core/3.0.62": {
+      "sha512": "UfLUKkMe2VhFvlY1kwm0wzg1rGU0/2NElvKcQweB3TGGD+MBtGQ5sQA9ZFPRjqi0n/fDF2oq0D0oAYFSwVpHTg==",
+      "type": "package",
+      "path": "protobuf-net.core/3.0.62",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/protobuf-net.Core.dll",
+        "lib/net461/protobuf-net.Core.xml",
+        "lib/net5.0/protobuf-net.Core.dll",
+        "lib/net5.0/protobuf-net.Core.xml",
+        "lib/netcoreapp3.1/protobuf-net.Core.dll",
+        "lib/netcoreapp3.1/protobuf-net.Core.xml",
+        "lib/netstandard2.0/protobuf-net.Core.dll",
+        "lib/netstandard2.0/protobuf-net.Core.xml",
+        "lib/netstandard2.1/protobuf-net.Core.dll",
+        "lib/netstandard2.1/protobuf-net.Core.xml",
+        "protobuf-net.core.3.0.62.nupkg.sha512",
+        "protobuf-net.core.nuspec"
+      ]
+    },
+    "CodingK_Session/1.0.0": {
+      "type": "project",
+      "path": "../CodingK_Session/CodingK_Session.csproj",
+      "msbuildProject": "../CodingK_Session/CodingK_Session.csproj"
+    },
+    "test.Protocol/1.0.0": {
+      "type": "project",
+      "path": "../test.Protocol/test.Protocol.csproj",
+      "msbuildProject": "../test.Protocol/test.Protocol.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CodingK_Session >= 1.0.0",
+      "test.Protocol >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Github\\CodingK_Session\\CodingK_Session\\test.ServerSession\\test.ServerSession.csproj",
+      "projectName": "test.ServerSession",
+      "projectPath": "C:\\Github\\CodingK_Session\\CodingK_Session\\test.ServerSession\\test.ServerSession.csproj",
+      "packagesPath": "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\CodingK_Session\\CodingK_Session\\test.ServerSession\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\YAN JUNJIE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Github\\CodingK_Session\\CodingK_Session\\CodingK_Session\\CodingK_Session.csproj": {
+              "projectPath": "C:\\Github\\CodingK_Session\\CodingK_Session\\CodingK_Session\\CodingK_Session.csproj"
+            },
+            "C:\\Github\\CodingK_Session\\CodingK_Session\\test.Protocol\\test.Protocol.csproj": {
+              "projectPath": "C:\\Github\\CodingK_Session\\CodingK_Session\\test.Protocol\\test.Protocol.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Release\netstandard2.0\CodingK_Session.deps.json
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Release\netstandard2.0\CodingK_Session.dll
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Release\netstandard2.0\CodingK_Session.pdb
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.csproj.AssemblyReference.cache
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.AssemblyInfoInputs.cache
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.AssemblyInfo.cs
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.csproj.CoreCompileInputs.cache
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.dll
+C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Release\netstandard2.0\CodingK_Session.pdb
