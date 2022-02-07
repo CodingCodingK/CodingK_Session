@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <SignAssembly>False</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <BaseOutputPath>C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

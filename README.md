@@ -49,3 +49,11 @@ checkTask = client.ConnectServer(200, 5000); // 连接服务器，返回 Task<Bo
 ...
 ```
 
+# 在Unity中使用
+
+1.协议类库项目引用**CodingK_Session_Libs**文件夹中的dll。
+
+2.协议类库项目生成代码指定到Unity脚本中。
+
+nuget在vs中很好用，但是unity我目前没找到好的支持，目前由当插件用吧。
+
