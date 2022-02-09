@@ -1,6 +1,6 @@
 # CodingK_Session
 
-UDP/TCP C-S Session powered by proto, KCP, PELog on .net standard 2.0.3, Kcp 2.3.0, protobuf-net 3.9.62 .
+UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, protobuf-net 3.9.62 .
 
 基于KCPNet进行进一步优化+适应游戏开发环境的 **服务端 - 客户端 解决方案**。
 
