@@ -5,8 +5,6 @@ C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreap
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\test.ServerSession.dll
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\test.ServerSession.pdb
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\Kcp.dll
-C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\protobuf-net.dll
-C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\protobuf-net.Core.dll
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\CodingK_Session.dll
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\test.Protocol.dll
 C:\Github\CodingK_Session\CodingK_Session\test.ServerSession\bin\Debug\netcoreapp3.1\CodingK_Session.pdb

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <BaseOutputPath>C:\Github\CodingK_Session\unityClient2\Assets\Scripts\CodingKSession_Protobuf</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

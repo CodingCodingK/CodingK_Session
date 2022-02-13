@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "test.ClientSession/1.0.0": {
+        "dependencies": {
+          "CodingK_Session": "1.0.0",
+          "test.Protocol": "1.0.0"
+        },
+        "runtime": {
+          "test.ClientSession.dll": {}
+        }
+      },
+      "Kcp/2.3.0": {
+        "runtime": {
+          "lib/net5.0/Kcp.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "CodingK_Session/1.0.0": {
+        "dependencies": {
+          "Kcp": "2.3.0"
+        },
+        "runtime": {
+          "CodingK_Session.dll": {}
+        }
+      },
+      "test.Protocol/1.0.0": {
+        "dependencies": {
+          "CodingK_Session": "1.0.0"
+        },
+        "runtime": {
+          "test.Protocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "test.ClientSession/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kcp/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cegDiYxgyQ9aVGOpEuVTNMhb4P7Sfc4lUnZmlC2Mj5QVuvnglVU2ol3yTWZyQDDkmV2F8qzgF3OkAmbY3cwSPw==",
+      "path": "kcp/2.3.0",
+      "hashPath": "kcp.2.3.0.nupkg.sha512"
+    },
+    "CodingK_Session/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "test.Protocol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

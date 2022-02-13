@@ -5,12 +5,12 @@
     <DebugType>portable</DebugType>
     <SignAssembly>False</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <BaseOutputPath>C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs</BaseOutputPath>
+    <BaseOutputPath></BaseOutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Kcp" Version="2.3.0" />
-    <PackageReference Include="protobuf-net" Version="3.0.62" />
   </ItemGroup>
 
 </Project>

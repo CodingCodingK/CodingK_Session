@@ -1,9 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.IO.Compression;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Threading;
+using Bright.Net.Codecs;
+using Bright.Serialization;
+using SerializationException = System.Runtime.Serialization.SerializationException;
 
 namespace CodingK_Session
 {
@@ -107,121 +109,135 @@ namespace CodingK_Session
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
-        public static byte[] ProtoSerialize<T>(T msg) where T : CodingK_Msg
+        public static byte[] ProtoSerialize<T>(T msg) where T : Protocol,new()
         {
-            byte[] bytes = null;
-            using (MemoryStream ms = new MemoryStream())
-            {
-                try
-                {
-                    ProtoBuf.Serializer.Serialize(ms, msg);
-                    bytes = new byte[ms.Length];
-                    Buffer.BlockCopy(ms.GetBuffer(), 0, bytes, 0, (int)ms.Length);
-                }
-                catch (SerializationException se)
-                {
-                    Error("Failed to protoSerialized: {0}", se.Message);
-                    throw se;
-                }
-                
-            }
+            #region deleted
+            // byte[] bytes = null;
+            // using (MemoryStream ms = new MemoryStream())
+            // {
+            //     try
+            //     {
+            //         ProtoBuf.Serializer.Serialize(ms, msg);
+            //         bytes = new byte[ms.Length];
+            //         Buffer.BlockCopy(ms.GetBuffer(), 0, bytes, 0, (int)ms.Length);
+            //     }
+            //     catch (SerializationException se)
+            //     {
+            //         Error("Failed to protoSerialized: {0}", se.Message);
+            //         throw se;
+            //     }
+            //     
+            // }
+            // return bytes;
+            #endregion
 
-            return bytes;
+            var bf = new ByteBuf();
+            msg.Serialize(bf);
+            return bf.CopyData();
         }
 
-        public static T ProtoDeSerialize<T>(byte[] bytes) where T : CodingK_Msg
+        public static T ProtoDeSerialize<T>(byte[] bytes) where T : Protocol, new()
         {
-            T msg;
-            using (MemoryStream ms = new MemoryStream(bytes))
-            {
-                try
-                {
-                    msg = ProtoBuf.Serializer.Deserialize<T>(ms);
-                }
-                catch (Exception e)
-                {
-                    Error("Failed to protoDeserialized: {0}. bytesLength: {1}", e.Message, bytes.Length);
-                    throw e;
-                }
-            }
+            #region deleted
+            // T msg;
+            // using (MemoryStream ms = new MemoryStream(bytes))
+            // {
+            //     try
+            //     {
+            //         msg = ProtoBuf.Serializer.Deserialize<T>(ms);
+            //     }
+            //     catch (Exception e)
+            //     {
+            //         Error("Failed to protoDeserialized: {0}. bytesLength: {1}", e.Message, bytes.Length);
+            //         throw e;
+            //     }
+            // }
+            //
+            // return msg;
+            #endregion
 
-            return msg;
+            var bf = new ByteBuf(bytes);
+            T instance = new T();
+            instance.Deserialize(bf);
+            return instance;
         }
 
-        public static byte[] Serialize<T>(T msg) where T : CodingK_Msg
-        {
-            
-            using (MemoryStream ms = new MemoryStream())
-            {
-                try
-                {
-                    BinaryFormatter bf = new BinaryFormatter();
-                    bf.Serialize(ms, msg);
-                    ms.Seek(0, SeekOrigin.Begin);
-                    return Compress(ms.ToArray());
-                }
-                catch (SerializationException se)
-                {
-                    Error("Failed to serialized: {0}", se.Message);
-                    throw se;
-                }
-            }
-        }
+        #region deleted
+        // public static byte[] Serialize<T>(T msg) where T : CodingK_Msg
+        // {
+        //     
+        //     using (MemoryStream ms = new MemoryStream())
+        //     {
+        //         try
+        //         {
+        //             BinaryFormatter bf = new BinaryFormatter();
+        //             bf.Serialize(ms, msg);
+        //             ms.Seek(0, SeekOrigin.Begin);
+        //             return Compress(ms.ToArray());
+        //         }
+        //         catch (SerializationException se)
+        //         {
+        //             Error("Failed to serialized: {0}", se.Message);
+        //             throw se;
+        //         }
+        //     }
+        // }
+        //
+        // public static T DeSerialize<T>(byte[] bytes) where T : CodingK_Msg
+        // {
+        //     bytes = DeCompress(bytes);
+        //
+        //     using (MemoryStream ms = new MemoryStream(bytes))
+        //     {
+        //         try
+        //         {
+        //             BinaryFormatter bf = new BinaryFormatter();
+        //             T msg = (T)bf.Deserialize(ms);
+        //             return msg;
+        //         }
+        //         catch (Exception e)
+        //         {
+        //             Error("Failed to Deserialized: {0}. bytesLength: {1}", e.Message, bytes.Length);
+        //             throw e;
+        //         }
+        //     }
+        // }
 
-        public static T DeSerialize<T>(byte[] bytes) where T : CodingK_Msg
-        {
-            bytes = DeCompress(bytes);
-
-            using (MemoryStream ms = new MemoryStream(bytes))
-            {
-                try
-                {
-                    BinaryFormatter bf = new BinaryFormatter();
-                    T msg = (T)bf.Deserialize(ms);
-                    return msg;
-                }
-                catch (Exception e)
-                {
-                    Error("Failed to Deserialized: {0}. bytesLength: {1}", e.Message, bytes.Length);
-                    throw e;
-                }
-            }
-        }
-
-        private static byte[] Compress(byte[] input)
-        {
-            using (MemoryStream outMS = new MemoryStream())
-            {
-                using (GZipStream gzs = new GZipStream(outMS, CompressionMode.Compress, true))
-                {
-                    gzs.Write(input, 0, input.Length);
-                    gzs.Close();
-                    return outMS.ToArray();
-                }
-            }
-        }
-
-        private static byte[] DeCompress(byte[] input)
-        {
-            using (MemoryStream inputMS = new MemoryStream(input))
-            {
-                using (MemoryStream outputMS = new MemoryStream())
-                {
-                    using (GZipStream gzs = new GZipStream(inputMS, CompressionMode.Decompress))
-                    {
-                        byte[] bytes = new byte[1024];
-                        int len = 0;
-                        while ((len = gzs.Read(bytes, 0, bytes.Length)) > 0)
-                        {
-                            outputMS.Write(bytes, 0, len);
-                        }
-
-                        gzs.Close();
-                        return outputMS.ToArray();
-                    }
-                }
-            }
-        }
+        // private static byte[] Compress(byte[] input)
+        // {
+        //     using (MemoryStream outMS = new MemoryStream())
+        //     {
+        //         using (GZipStream gzs = new GZipStream(outMS, CompressionMode.Compress, true))
+        //         {
+        //             gzs.Write(input, 0, input.Length);
+        //             gzs.Close();
+        //             return outMS.ToArray();
+        //         }
+        //     }
+        // }
+        //
+        // private static byte[] DeCompress(byte[] input)
+        // {
+        //     using (MemoryStream inputMS = new MemoryStream(input))
+        //     {
+        //         using (MemoryStream outputMS = new MemoryStream())
+        //         {
+        //             using (GZipStream gzs = new GZipStream(inputMS, CompressionMode.Decompress))
+        //             {
+        //                 byte[] bytes = new byte[1024];
+        //                 int len = 0;
+        //                 while ((len = gzs.Read(bytes, 0, bytes.Length)) > 0)
+        //                 {
+        //                     outputMS.Write(bytes, 0, len);
+        //                 }
+        //
+        //                 gzs.Close();
+        //                 return outputMS.ToArray();
+        //             }
+        //         }
+        //     }
+        // }
+        #endregion
 
         private static readonly DateTime utcStart = new DateTime(1970, 1, 1);
         public static ulong GetUTCStartMilliseconds()

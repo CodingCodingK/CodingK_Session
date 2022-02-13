@@ -1,6 +1,6 @@
 ﻿using System;
 using CodingK_Session;
-using test.Protocol;
+using proto.test;
 
 namespace test.ServerSession
 {
@@ -29,7 +29,7 @@ namespace test.ServerSession
                 }
                 else
                 {
-                    server.BroadCastMsg(new NetMsg { info = input });
+                    server.BroadCastMsg(new NetMsg { Info = input });
                 }
             }
 

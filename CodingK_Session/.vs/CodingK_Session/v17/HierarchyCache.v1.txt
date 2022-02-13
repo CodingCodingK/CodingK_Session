@@ -1,0 +1,336 @@
+﻿++解决方案“CodingK_Session”‎(4 个项目，共 4 个)
+i:{00000000-0000-0000-0000-000000000000}:CodingK_Session.sln
+++test.Protocol
+i:{00000000-0000-0000-0000-000000000000}:test.Protocol
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:c:\github\codingk_session\codingk_session\test.protocol\bin\debug\netstandard2.0\test.protocol.dll
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\github\codingk_session\codingk_session\test.protocol\bin\debug\netstandard2.0\test.protocol.dll
+++依赖项
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:>606
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:>608
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:>607
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:>605
+++NetMsg.cs
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:c:\github\codingk_session\codingk_session\test.protocol\netmsg.cs
+++包
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:包
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:包
+++项目
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:项目
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:项目
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:项目
+++NETStandard.Library (2.0.3)
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:>618
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:>612
+++CodingK_Session
+i:{cbe084b6-24a3-4654-92e1-eac67b06f899}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.dll
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.dll
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.dll
+i:{00000000-0000-0000-0000-000000000000}:CodingK_Session
+++test.ServerSession
+i:{00000000-0000-0000-0000-000000000000}:test.ServerSession
+++ServerSession.cs
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:c:\github\codingk_session\codingk_session\test.serversession\serversession.cs
+++ServerStart.cs
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:c:\github\codingk_session\codingk_session\test.serversession\serverstart.cs
+++框架
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:框架
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:框架
+++Microsoft.NETCore.App
+i:{4698a6ff-8035-42a5-93e8-03594b3c2034}:c:\github\codingk_session\codingk_session\test.serversession\microsoft.netcore.app
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\github\codingk_session\codingk_session\test.clientsession\microsoft.netcore.app
+++test.ClientSession
+i:{00000000-0000-0000-0000-000000000000}:test.ClientSession
+++ClientSession.cs
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\github\codingk_session\codingk_session\test.clientsession\clientsession.cs
+++ClientStart.cs
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\github\codingk_session\codingk_session\test.clientsession\clientstart.cs
+++分析器
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:分析器
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{a55c1395-3d84-44cb-988b-e2b4a88f50da}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Properties
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\properties\
+++导入
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:>191
+++bin
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\
+++obj
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\
+++CodingK_Handle.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\codingk_handle.cs
+++CodingK_Net.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\codingk_net.cs
+++CodingK_Session.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\codingk_session.cs
+++CodingK_SessionTool.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\codingk_sessiontool.cs
+++PublishProfiles
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\properties\publishprofiles\
+++Sdk.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Debug
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\
+++Release
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\release\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\
+++CodingK_Session.csproj.nuget.dgspec.json
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\codingk_session.csproj.nuget.dgspec.json
+++CodingK_Session.csproj.nuget.g.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\codingk_session.csproj.nuget.g.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\codingk_session.csproj.nuget.g.props
+++CodingK_Session.csproj.nuget.g.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\codingk_session.csproj.nuget.g.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\codingk_session.csproj.nuget.g.targets
+++project.assets.json
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\project.assets.json
+++project.nuget.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\project.nuget.cache
+++FolderProfile.pubxml
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\properties\publishprofiles\folderprofile.pubxml
+++FolderProfile.pubxml.user
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\properties\publishprofiles\folderprofile.pubxml.user
+++Microsoft.Common.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+++Microsoft.NET.Sdk.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+++Microsoft.NET.Sdk.BeforeCommon.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+++Microsoft.CSharp.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+++Microsoft.NET.Sdk.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+++Microsoft.NET.Compatibility.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+++Kcp (2.3.0)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:>613
+++protobuf-net (3.0.62)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:>614
+++netstandard2.0
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\release\netstandard2.0\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\
+++CodingK_Session.1.0.0.nupkg
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\codingk_session.1.0.0.nupkg
+++CodingK_Session.1.0.0.nuspec
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\codingk_session.1.0.0.nuspec
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\codingk_session.1.0.0.nuspec
+++Microsoft.NuGet.ImportBefore.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+++NuGet.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+++Microsoft.NET.Sdk.DefaultItems.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+++Microsoft.NET.SupportedPlatforms.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+++Microsoft.NET.ILLink.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+++Microsoft.NET.Compatibility.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+++Microsoft.NET.PackTool.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+++Microsoft.NET.PackProjectTool.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+++Microsoft.NET.Windows.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+++Microsoft.NET.DefaultAssemblyInfo.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+++Microsoft.Managed.Before.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+++Microsoft.Managed.After.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+++Microsoft.NET.Sdk.Common.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+++Microsoft.PackageDependencyResolution.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+++Microsoft.NET.DesignerSupport.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+++Microsoft.NET.ComposeStore.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+++Microsoft.NET.CrossGen.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+++Microsoft.NET.Publish.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+++Microsoft.NET.PackTool.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+++Microsoft.NET.PackProjectTool.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+++Microsoft.NET.ConflictResolution.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+++Microsoft.NET.ILLink.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+++Microsoft.NET.Windows.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.targets
+++Microsoft.NET.Compatibility.Common.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+++ref
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\ref\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\ref\
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\ref\
+++CodingK_Session.deps.json
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.deps.json
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\release\netstandard2.0\codingk_session.deps.json
+++CodingK_Session.dll
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.dll
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\release\netstandard2.0\codingk_session.dll
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.dll
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.dll
+++CodingK_Session.pdb
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\debug\netstandard2.0\codingk_session.pdb
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\bin\release\netstandard2.0\codingk_session.pdb
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.pdb
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.pdb
+++.NETStandard,Version=v2.0.AssemblyAttributes.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\.netstandard,version=v2.0.assemblyattributes.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\.netstandard,version=v2.0.assemblyattributes.cs
+++CodingK_Session.AssemblyInfo.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.assemblyinfo.cs
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.assemblyinfo.cs
+++CodingK_Session.AssemblyInfoInputs.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.assemblyinfoinputs.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.assemblyinfoinputs.cache
+++CodingK_Session.assets.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.assets.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.assets.cache
+++CodingK_Session.csproj.AssemblyReference.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.csproj.assemblyreference.cache
+++CodingK_Session.csproj.CoreCompileInputs.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.csproj.corecompileinputs.cache
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.csproj.corecompileinputs.cache
+++CodingK_Session.csproj.FileListAbsolute.txt
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.csproj.filelistabsolute.txt
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.csproj.filelistabsolute.txt
+++CodingK_Session.GeneratedMSBuildEditorConfig.editorconfig
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\debug\netstandard2.0\codingk_session.generatedmsbuildeditorconfig.editorconfig
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\obj\release\netstandard2.0\codingk_session.generatedmsbuildeditorconfig.editorconfig
+++Microsoft.NuGet.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.NET.ILLink.Tasks.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++CodingK_Session.csproj.user
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\github\codingk_session\codingk_session\codingk_session\codingk_session.csproj.user
+++Microsoft.NET.props
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.TeamTest.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++NETStandard.Library.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\dotnet\sdk\nugetfallbackfolder\netstandard.library\2.0.3\build\netstandard2.0\netstandard.library.targets
+++Microsoft.DesktopBridge.Common.targets
+i:{a2b772d5-8968-4d33-9c50-9abd3488ca60}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets

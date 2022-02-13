@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using CodingK_Session;
-using test.Protocol;
+using proto.test;
 
 namespace test.ServerSession
 {
@@ -33,8 +33,8 @@ namespace test.ServerSession
                 {
                     NetMsg pingMsg = new NetMsg
                     {
-                        cmd = CMD.Ping,
-                        ping = new test.Protocol.Ping { isOver = true },
+                        Cmd = CMD.Ping,
+                        Ping = new proto.test.Ping { IsOver = true },
                     };
                     // 3次心跳检测超时，本地模拟关闭消息
                     CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "PING IS OVER BEFORE");
@@ -45,11 +45,11 @@ namespace test.ServerSession
 
         protected override void OnReceiveMsg(NetMsg msg)
         {
-            CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "Get Msg from client. Sid:{0}, CMD:{1}, Msg:{2}", m_sessionId, msg.cmd, msg.info);
+            CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "Get Msg from client. Sid:{0}, CMD:{1}, Msg:{2}", m_sessionId, msg.Cmd, msg.Info);
 
-            if (msg.cmd == CMD.Ping)
+            if (msg.Cmd == CMD.Ping)
             {
-                if (msg.ping.isOver)
+                if (msg.Ping.IsOver)
                 {
                     CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "PING IS OVER");
                     // 在本地执行清楚Session的操作
@@ -62,32 +62,32 @@ namespace test.ServerSession
                     checkCounter = 0;
                     var pingMsg = new NetMsg
                     {
-                        cmd = CMD.Ping,
-                        ping = new Ping { isOver = false },
-                        info = "ping test",
+                        Cmd = CMD.Ping,
+                        Ping = new proto.test.Ping { IsOver = false },
+                        Info = "ping test",
                     };
                     // 对对应的Client Session发送msg
                     SendMsg(pingMsg);
                 }
             }
-            else if (msg.cmd == CMD.ReqLogin)
+            else if (msg.Cmd == CMD.ReqLogin)
             {
-                var datas = msg.reqLogin;
-                CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "Client Login:" + datas.acct + " " + datas.psd);
+                var datas = msg.ReqLogin;
+                CodingK_SessionTool.ColorLog(CodingK_LogColor.Magenta, "Client Login:" + datas.Acct + " " + datas.Psd);
 
                 var infoMsg = new NetMsg
                 {
-                    cmd = CMD.RspLogin,
-                    rspLogin = new RspLogin
+                    Cmd = CMD.RspLogin,
+                    RspLogin = new RspLogin
                     {
-                        info = new List<LoginInfo>(),
+                        Info = new List<LoginInfo>(),
                     }
                 };
-                infoMsg.rspLogin.info.Add(new LoginInfo
+                infoMsg.RspLogin.Info.Add(new LoginInfo
                 {
-                    exp = "10",
-                    lv = "1",
-                    money = "110",
+                    Exp = "10",
+                    Lv = "1",
+                    Money = "110",
                 });
                 // 对对应的Client Session发送msg
                 SendMsg(infoMsg);

@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sWKPMKTIDJxe7dAdk0AOJIZgJv8TyHXKmAo50LpugH1uPcW3HDMWdzhoDma5CGBShF8+lNb3Ao8lgm/nk+cSrA==",
+  "dgSpecHash": "0JvOYFo19251Qx7e7WOp1OUZaiE/W9UVWQsWkpfS2dIvUOoxbOEhsGT0YiEIQQJijIgCCEl0KOEmuGlPNTmNQg==",
   "success": true,
   "projectFilePath": "C:\\Github\\CodingK_Session\\CodingK_Session\\test.ServerSession\\test.ServerSession.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\kcp\\2.3.0\\kcp.2.3.0.nupkg.sha512",
-    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\protobuf-net\\3.0.62\\protobuf-net.3.0.62.nupkg.sha512",
-    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\protobuf-net.core\\3.0.62\\protobuf-net.core.3.0.62.nupkg.sha512"
+    "C:\\Users\\YAN JUNJIE\\.nuget\\packages\\kcp\\2.3.0\\kcp.2.3.0.nupkg.sha512"
   ],
   "logs": []
 }

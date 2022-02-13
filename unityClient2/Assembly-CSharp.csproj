@@ -268,38 +268,29 @@
  <Reference Include="UnityEditor">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="test.Protocol">
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/test.Protocol.dll</HintPath>
+ </Reference>
  <Reference Include="CodingK_Session">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/CodingK_Session.dll</HintPath>
- </Reference>
- <Reference Include="Kcp">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/Kcp.dll</HintPath>
- </Reference>
- <Reference Include="protobuf-net.Core">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/protobuf-net.Core.dll</HintPath>
- </Reference>
- <Reference Include="protobuf-net">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/protobuf-net.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Immutable">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Collections.Immutable.dll</HintPath>
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/CodingK_Session.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Memory.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Numerics.Vectors.dll</HintPath>
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/System.Numerics.Vectors.dll</HintPath>
  </Reference>
  <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="test.Protocol">
- <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/Libs/Debug/netstandard2.0/test.Protocol.dll</HintPath>
+ <Reference Include="Kcp">
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/Kcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Buffers">
+ <HintPath>C:/Github/CodingK_Session/unityClient2/Assets/Scripts/CodingKSession_Protobuf/Debug/netstandard2.0/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.14f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

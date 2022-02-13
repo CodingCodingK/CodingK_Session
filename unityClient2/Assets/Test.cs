@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using CodingK_Session;
-using test.Protocol;
+using proto.test;
 using UnityEngine;
 
 public class Test : MonoBehaviour
@@ -36,11 +36,11 @@ public class Test : MonoBehaviour
         {
             client.clientSession.SendMsg(new NetMsg
             {
-                cmd = CMD.ReqLogin,
-                reqLogin = new ReqLogin
+                Cmd = CMD.ReqLogin,
+                ReqLogin = new ReqLogin
                 {
-                    acct = "test1",
-                    psd = "test2",
+                    Acct = "test1",
+                    Psd = "test2",
                 }
             });
         }
@@ -88,10 +88,10 @@ public class Test : MonoBehaviour
                 {
                     client.clientSession.SendMsg(new NetMsg
                     {
-                        cmd = CMD.Ping,
-                        ping = new test.Protocol.Ping
+                        Cmd = CMD.Ping,
+                        Ping = new proto.test.Ping
                         {
-                            isOver = false,
+                            IsOver = false,
                         }
                     });
 

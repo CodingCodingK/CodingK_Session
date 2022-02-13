@@ -5,19 +5,20 @@ using System.Net.Sockets.Kcp;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Bright.Net.Codecs;
 
 namespace CodingK_Session
 {
-    /// <summary>
-    /// 具体通信协议,必须继承这个
-    /// </summary>
-    [Serializable]
-    public abstract class CodingK_Msg
-    {
+    // /// <summary>
+    // /// 具体通信协议,必须继承这个
+    // /// </summary>
+    // [Serializable]
+    // public abstract class CodingK_Msg
+    // {
+    //
+    // }
 
-    }
-
-    public abstract class CodingK_Session<T> where T : CodingK_Msg
+    public abstract class CodingK_Session<T> where T : Protocol, new()
     {
         protected abstract void OnDisConnected();
         protected abstract void OnConnected();
@@ -41,7 +42,7 @@ namespace CodingK_Session
         private CancellationToken ct;
 
 
-        public void InitSession(uint sid, Action<byte[], IPEndPoint> udpSender, IPEndPoint remotePoint, CodingK_ProtocolMode mode )
+        public void InitSession(uint sid, Action<byte[], IPEndPoint> udpSender, IPEndPoint remotePoint, CodingK_ProtocolMode mode , Func<T, byte[]> _serialize = null, Func<byte[], T> _deSerialize = null)
         {
             this.m_sessionId = sid;
             this.m_udpSender = udpSender;
@@ -51,18 +52,20 @@ namespace CodingK_Session
             this.m_protocolMode = mode;
 
             // choose Proto or Normal
-            switch (mode)
-            {
-                case CodingK_ProtocolMode.Proto:
-                    this.Serialize = CodingK_SessionTool.ProtoSerialize;
-                    this.DeSerialize = CodingK_SessionTool.ProtoDeSerialize<T>;
-                    break;
-                case CodingK_ProtocolMode.Normal:
-                default:
-                    this.Serialize = CodingK_SessionTool.Serialize;
-                    this.DeSerialize = CodingK_SessionTool.DeSerialize<T>;
-                    break;
-            }
+            // switch (mode)
+            // {
+            //     case CodingK_ProtocolMode.Proto:
+            //         this.Serialize = CodingK_SessionTool.ProtoSerialize;
+            //         this.DeSerialize = CodingK_SessionTool.ProtoDeSerialize<T>;
+            //         break;
+            //     case CodingK_ProtocolMode.Normal:
+            //     default:
+            //         this.Serialize = CodingK_SessionTool.Serialize;
+            //         this.DeSerialize = CodingK_SessionTool.DeSerialize<T>;
+            //         break;
+            // }
+            this.Serialize = _serialize ?? CodingK_SessionTool.ProtoSerialize;
+            this.DeSerialize = _deSerialize ?? CodingK_SessionTool.ProtoDeSerialize<T>;
 
             // sid = kcp添加控制信息的包里，头4个字节的数字对应传入的int值，每一个字节可以转化为对应的0~255的数字。而4个字节刚好对应一个uint32，也就是传入new Kcp(sid, m_handle)的sid。
             m_kcp = new Kcp(sid, m_handle);

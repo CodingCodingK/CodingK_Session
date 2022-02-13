@@ -1,3 +1,9 @@
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.deps.json
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.dll
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.pdb
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\CodingKSession_Libs\Debug\netstandard2.0\CodingK_Session.deps.json
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\CodingKSession_Libs\Debug\netstandard2.0\CodingK_Session.dll
+C:\Github\CodingK_Session\unityClient2\Assets\Scripts\CodingKSession_Libs\Debug\netstandard2.0\CodingK_Session.pdb
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Debug\netstandard2.0\CodingK_Session.deps.json
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Debug\netstandard2.0\CodingK_Session.dll
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\bin\Debug\netstandard2.0\CodingK_Session.pdb
@@ -7,6 +13,3 @@ C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Debug\netstandard2
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Debug\netstandard2.0\CodingK_Session.csproj.CoreCompileInputs.cache
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Debug\netstandard2.0\CodingK_Session.dll
 C:\Github\CodingK_Session\CodingK_Session\CodingK_Session\obj\Debug\netstandard2.0\CodingK_Session.pdb
-C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.deps.json
-C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.dll
-C:\Github\CodingK_Session\unityClient2\Assets\Scripts\Libs\Debug\netstandard2.0\CodingK_Session.pdb

@@ -54,10 +54,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "protobuf-net": {
-              "target": "Package",
-              "version": "[3.0.62, )"
             }
           },
           "imports": [

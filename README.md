@@ -1,6 +1,6 @@
 # CodingK_Session
 
-UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, protobuf-net 3.9.62 .
+UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, protobuf, luban .
 
 基于KCPNet进行进一步优化+适应游戏开发环境的 **服务端 - 客户端 解决方案**。
 
@@ -11,6 +11,8 @@ UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, pro
 项目中含有 .net core服务端 和 .net framework客户端 的测试demo。
 
 本人博客(CodingCodingK.top) 中有proto笔记、UDP笔记，以及github有自制proto协议代码批量生成工具（wpf）。
+
+=> 最新2022.2.13 现在已经改为直接使用 [luban](https://github.com/focus-creative-games/luban) +xml 生成protobuf协议，且不再依赖于protobuf-net(我认为它的序列化效率并不高)。
 
 # 使用
 
@@ -61,3 +63,8 @@ checkTask = client.ConnectServer(200, 5000); // 连接服务器，返回 Task<Bo
 
 nuget在vs中很好用，但是unity我目前没找到好的支持，所以项目先当插件用吧。
 
+# 关于演示
+
+你完全可以删除演示中protobuf的CMD，将一个protobuf拆成多个小的protobuf再用ProtocolStub.cs的工厂根据protobuf协议号来反序列化。
+
+这里只演示用法，并不是最佳实践，具体协议写法可以自己定。

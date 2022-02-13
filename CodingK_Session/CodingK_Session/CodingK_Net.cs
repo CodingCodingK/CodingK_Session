@@ -6,12 +6,13 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Bright.Net.Codecs;
 
 namespace CodingK_Session
 {
     public class CodingK_Net<T, K>
         where T : CodingK_Session<K>, new()
-        where K : CodingK_Msg, new()
+        where K : Protocol, new()
     {
 
         UdpClient udp;
@@ -291,14 +292,16 @@ namespace CodingK_Session
         /// <summary>
         /// 广播消息给所有客户端
         /// </summary>
-        public void BroadCastMsg(K msg)
+        public void BroadCastMsg(K msg, Func<T, byte[]> _serialize = null)
         {
             byte[] bytes;
-            if (_protocolMode == CodingK_ProtocolMode.Proto)
-                bytes = CodingK_SessionTool.ProtoSerialize(msg);
-            else
-                bytes = CodingK_SessionTool.Serialize(msg);
+            //if (_protocolMode == CodingK_ProtocolMode.Proto)
+            //    bytes = CodingK_SessionTool.ProtoSerialize(msg);
+            //else
+            //    bytes = CodingK_SessionTool.Serialize(msg);
 
+            // TODO custom serialize
+            bytes = CodingK_SessionTool.ProtoSerialize(msg);
             foreach (var item in sessionDic)
             {
                 item.Value.SendMsg(bytes);
