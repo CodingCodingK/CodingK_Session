@@ -42,7 +42,7 @@ namespace CodingK_Session
         private CancellationToken ct;
 
 
-        public void InitSession(uint sid, Action<byte[], IPEndPoint> udpSender, IPEndPoint remotePoint, CodingK_ProtocolMode mode , Func<T, byte[]> _serialize = null, Func<byte[], T> _deSerialize = null)
+        public void InitSession(uint sid, Action<byte[], IPEndPoint> udpSender, IPEndPoint remotePoint, CodingK_ProtocolMode mode = CodingK_ProtocolMode.Proto , Func<T, byte[]> _serialize = null, Func<byte[], T> _deSerialize = null)
         {
             this.m_sessionId = sid;
             this.m_udpSender = udpSender;

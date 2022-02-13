@@ -2,7 +2,7 @@
 
 UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, protobuf, luban .
 
-*=> 最新2022.2.13 现在已经改为直接使用 [luban](https://github.com/focus-creative-games/luban) +xml 生成protobuf协议，且不再依赖于protobuf-net(我认为它的序列化效率并不高)。*
+*=> 最新2022.2.13 现在已经改为直接使用 [luban](https://github.com/focus-creative-games/luban) +xml 生成protobuf协议，且不再依赖于protobuf-net(我认为它的序列化效率并不高)。且已经删除了普通序列化的方案。*
 
 基于KCPNet进行进一步优化+适应游戏开发环境的 **服务端 - 客户端 解决方案**。
 

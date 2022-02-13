@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using CodingK_Session;
 using proto.test;
-using Ping = System.Net.NetworkInformation.Ping;
 
 namespace test.ClientSession
 {

@@ -18,7 +18,7 @@ namespace CodingK_Session
         UdpClient udp;
         IPEndPoint remotePoint;
 
-        private CodingK_ProtocolMode _protocolMode = CodingK_ProtocolMode.Normal;
+        private CodingK_ProtocolMode _protocolMode = CodingK_ProtocolMode.Proto;
 
         private CancellationTokenSource cts;
         private CancellationToken ct;

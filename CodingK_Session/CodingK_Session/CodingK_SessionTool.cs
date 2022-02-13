@@ -259,7 +259,7 @@ namespace CodingK_Session
 
     public enum CodingK_ProtocolMode
     {
-        Normal,
+        //Normal,
         Proto,
     }
 }
