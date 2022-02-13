@@ -2,6 +2,8 @@
 
 UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, protobuf, luban .
 
+*=> 最新2022.2.13 现在已经改为直接使用 [luban](https://github.com/focus-creative-games/luban) +xml 生成protobuf协议，且不再依赖于protobuf-net(我认为它的序列化效率并不高)。*
+
 基于KCPNet进行进一步优化+适应游戏开发环境的 **服务端 - 客户端 解决方案**。
 
 1. 通过KCP算法实现可靠UDP通信。
@@ -11,8 +13,6 @@ UDP/TCP C-S Session powered by proto, KCP on .net standard 2.0.3, Kcp 2.3.0, pro
 项目中含有 .net core服务端 和 .net framework客户端 的测试demo。
 
 本人博客(CodingCodingK.top) 中有proto笔记、UDP笔记，以及github有自制proto协议代码批量生成工具（wpf）。
-
-=> 最新2022.2.13 现在已经改为直接使用 [luban](https://github.com/focus-creative-games/luban) +xml 生成protobuf协议，且不再依赖于protobuf-net(我认为它的序列化效率并不高)。
 
 # 使用
 
